@@ -3,7 +3,7 @@ package com.knoldus.functionaljava.lazy.lambda;
 public class NonLazyCodeExample {
 
     /*
-    Here, both computeResult() and processResult() got evaluated even if we have used
+    Here, both computeResult() and processResult() will get evaluated even if we have used
     && operator which will not evaluate the 2nd operand unless first operand is true.
      */
     public static void main(String args[]) {

@@ -24,7 +24,7 @@ public class Lambda2 {
         }
        */
 
-        // 2. Internal Iterator
+        // 2. External Iterator (More concise way)
 
         /*
         for (int e : list) {
@@ -32,7 +32,7 @@ public class Lambda2 {
         }
         */
 
-        // 3. Anonymous class
+        // 3. Internal Iterator (Anonymous class)
 
        /*
        list.forEach(new Consumer<Integer>() {
@@ -46,10 +46,10 @@ public class Lambda2 {
 
         // =====================Functional way ============================
 
-        // 1. Lambda
+        // 1. Lambda (Internal Iterator)
         // list.forEach(x -> System.out.println(x));
 
-        // 2. Method Reference
+        // 2. Method Reference (Internal Iterator)
         list.forEach(System.out::println);
 
     }
